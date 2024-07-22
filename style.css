@@ -12,7 +12,7 @@ header {
     color: #000; /* Set header text color to black */
     padding: 1rem;
     text-align: center;
-    border-bottom: 1px solid #ddd; /* Optional: Add a light border to separate header */
+    /* Remove border-bottom */
 }
 
 nav ul {
@@ -40,7 +40,7 @@ footer {
     color: #000; /* Set footer text color to black */
     text-align: center;
     padding: 1rem;
-    border-top: 1px solid #ddd; /* Optional: Add a light border to separate footer */
+    /* Remove border-top */
     position: fixed;
     bottom: 0;
     width: 100%;
