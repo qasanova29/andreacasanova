@@ -12,7 +12,6 @@ header {
     color: #000; /* Set header text color to black */
     padding: 1rem;
     text-align: center;
-    /* Remove border-bottom */
 }
 
 nav ul {
@@ -32,7 +31,20 @@ nav ul li a {
 }
 
 main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 1rem;
+}
+
+.main-text {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.main-image {
+    width: 30%; /* Resize image to 30% of its parent container */
+    height: auto;
 }
 
 footer {
@@ -40,13 +52,7 @@ footer {
     color: #000; /* Set footer text color to black */
     text-align: center;
     padding: 1rem;
-    /* Remove border-top */
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-img {
-    width: 30%; /* Resize image to 30% of its parent container */
-    height: auto;
 }
