@@ -47,6 +47,6 @@ footer {
 }
 
 img {
-    max-width: 100%;
+    width: 30%; /* Resize image to 30% of its parent container */
     height: auto;
 }
