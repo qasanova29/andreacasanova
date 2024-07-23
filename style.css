@@ -47,27 +47,8 @@ main {
     height: auto;
 }
 
-footer {
-    background: #fff; /* Set footer background to white */
-    color: #000; /* Set footer text color to black */
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
 
-body {
-	background: #CAD3DB;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	height: 100vh;
-	font-family: 'Mulish', sans-serif;
-}
 
 .subscribe {
 	display: flex;
@@ -131,3 +112,16 @@ body {
 .notice {
 	width: 345px;
 }
+
+footer {
+    background: #fff; /* Set footer background to white */
+    color: #000; /* Set footer text color to black */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
