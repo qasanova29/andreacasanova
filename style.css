@@ -71,7 +71,7 @@ main {
 
 .subscribe__copy {
 	max-width: 450px;
-	text-align: center;
+	text-align: start;
 	margin-bottom: 53px;
 	line-height: 1.5;
 }
@@ -111,16 +111,6 @@ main {
 
 .notice {
 	width: 345px;
-}
-
-footer {
-    background: #fff; /* Set footer background to white */
-    color: #000; /* Set footer text color to black */
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 
