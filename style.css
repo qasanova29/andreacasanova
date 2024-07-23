@@ -47,39 +47,3 @@ main {
     margin-left: 1rem; /* Add space between the text and image */
 }
 
-.newsletter {
-    width: 100%; /* Take full width */
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column; /* Stack newsletter items vertically */
-    align-items: center; /* Center align items */
-}
-
-.newsletter p {
-    margin-bottom: 0.5rem;
-}
-
-.newsletter input[type="email"] {
-    padding: 0.5rem;
-    width: 70%;
-    margin-right: 0.5rem;
-}
-
-.newsletter button {
-    padding: 0.5rem 1rem;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.newsletter button:hover {
-    background-color: #555;
-}
-
-footer {
-    background: #fff; /* Set footer background to white */
-    color: #000; /* Set footer text color to black */
-    text-align: center;
-    padding: 1rem;
-}
