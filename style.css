@@ -63,8 +63,8 @@ footer {
 body {
 	background: #CAD3DB;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
+	align-items: flex-start;
 	height: 100vh;
 	font-family: 'Mulish', sans-serif;
 }
@@ -72,8 +72,8 @@ body {
 .subscribe {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-start;
+	justify-content: space-between;
 	background: white;
 	width: 945px;
 	height: 474px;
