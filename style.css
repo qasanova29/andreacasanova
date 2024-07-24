@@ -44,20 +44,3 @@ main {
 }
 
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-@media (min-width: 768px) {
-    body {
-        padding: 20px;
-    }
-}
-
-@media (min-width: 1024px) {
-    body {
-        padding: 30px;
-    }
-}
